@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home-txt {
+    margin: 50px;
+    font-size: 200px;
+    color: #ff0000;
+    font-family: 'Brush Script MT', cursive;
+}
+
+@keyframes colorChange {
+    0% {
+        color: #fff;
+    }
+
+    25% {
+        color: #00ff00;
+    }
+
+    50% {
+        color: #090b09;
+    }
+    
+    75% {
+        color: #1414fb;
+    }
+
+    100% {
+        color: #fbbf0d;
+    }
+}
+
+.home-txt {
+    animation: colorChange 3s infinite;
+}
+
+.home-btn{
+    background-color: blue;
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    color: #fff;
+}
+.home-btn:hover{
+    box-shadow: 1px 0px 10px blue;
+
+}
